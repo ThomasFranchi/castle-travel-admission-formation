@@ -1,18 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Style -->
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Titre -->
-    <title>Castle & Travel - A la decouverte des Châteaux</title>
-  </head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <!-- A FAIRE: Intégrer la page selon la maquette -->
-  </body>
+  <!-- Titre -->
+  <title>Castle & Travel - A la decouverte des Châteaux</title>
+</head>
+
+<body>
+  <!-- A FAIRE: Intégrer la page selon la maquette -->
+  <header class="header">
+    <nav>
+      <div class="logo"></div>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="#concept">Le concept</a></li>
+        <li class="nav-li">
+          <div class="square yellow"></div>
+        </li>
+        <li class="nav-li"><a href="#chateaux">Nos châteaux</a></li>
+        <li class="nav-li">
+          <div class="square yellow"></div>
+        </li>
+        <li class="nav-li"><a href="#contact">Contactez-nous</a></li>
+      </ul>
+    </nav>
+
+    <div class="baseline">
+      <h3>Voyagez dans le temps avec</h3>
+      <h1>Castle & Travel</h1>
+      <button class="yellow">Découvrir</button>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="small-container">
+
+        <div class="title-container">
+          <div class="square yellow"></div>
+          <h2 id="concept">Découvrez le concept</h2>
+          <div class="square yellow"></div>
+        </div>
+      </div>
+      <div class="wrap-container">
+        <div class="highlight-container"><span class="material-icons big">castle</span>
+          Des châteaux historiques pour voyager dans le temps
+        </div>
+        <div class="highlight-container"><span class="material-icons big">star</span>
+          Des prestations 5 étoiles dans chacun de nos châteaux
+        </div>
+
+        <div class="highlight-container">
+          <span class="material-icons big">room_service</span>
+          Un service d'hôtellerie disponible 7j/7 h24
+        </div>
+
+        <div class="highlight-container">
+          <span class="material-icons big">explore</span>
+          Avion, train, transfert et taxi, nous nous chargeons de tous
+        </div>
+        <span class="vertical-text left">Le concept</span>
+
+      </div>
+
+    </section>
+
+    <section>
+      <!-- <div class="rectangle yellow"></div> -->
+
+      <div class="small-container">
+        <span class="vertical-text right">Nos châteaux</span>
+
+        <div class="title-container">
+          <div class="square yellow"></div>
+          <h2 id="chateaux">Un séjour royal das nos châteaux</h2>
+          <div class="square yellow"></div>
+        </div>
+      </div>
+      <div class="main-image-container">
+        <div class="img-container">
+          <img class="img-product" src="./assets/images/altenstein-castle.jpg" alt="Chateau d'altenstein">
+        </div>
+        <div class="img-container"> <img class="img-product" src="./assets/images/chambord-castle.jpg"
+            alt="Chateau de Chambord"> </div>
+        <div class="img-container"> <img class="img-product" src="./assets/images/hluboka-castle.jpg"
+            alt="Chateau de hluboka"> </div>
+        <div class="img-container"> <img class="img-product" src="./assets/images/hogwarts-castle.jpg"
+            alt="Chateau de hogwarts"> </div>
+        <div class="img-container"> <img class="img-product" src="./assets/images/neuschwanstein-castle.jpg"
+            alt="Chateau de neuschwanstein"> </div>
+        <div class="img-container"> <img class="img-product" src="./assets/images/versailles-castle.jpg"
+            alt="Chateau de Chambord"> </div>
+        <div class="img-container"> <img class="img-product" src="./assets/images/eilean-donan-castle.jpg"
+            alt="Chateau d'eilean-donan"> </div>
+      </div>
+
+    </section>
+
+    <section>
+
+      <div class="small-container">
+
+        <div class="title-container">
+          <div class="square yellow"></div>
+          <h2 id="contact">Ecrivez-nous et réservez</h2>
+          <div class="square yellow"></div>
+        </div>
+        <div class="main-table-container">
+          <div class="table-container"> <span class="material-icons">call</span>
+            <a href="tel:+33 (0) 4 93 62 44 58">+33 (0) 4 93 62 44 58</a>
+          </div>
+          <div class="table-container"> <span class="material-icons">mail</span>
+            <a href="mailto:contact@castle-and-travel.com">contact@castle-and-travel.com</a>
+          </div>
+          <span class="vertical-text left">contact</span>
+          <div class="table-container"> <span class="material-icons">location_on</span><span>Castle & Travel - 26
+              Boulevard Carabacel 06000 Nice
+              France </span>
+          </div>
+
+
+          <div class="table-bottom">
+            <span>@ Travel & Castle 2022</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
